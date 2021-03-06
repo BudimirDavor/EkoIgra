@@ -1,0 +1,72 @@
+﻿
+div{
+    padding:10px;
+}
+
+body{
+    background-color: #fff8dc;
+    color:#000000;
+    font-size:13pt;
+    line-height: 1.3;
+    font-family:Lato, serif;
+    margin:0;
+    padding:0;    
+}
+
+@media screen and (max-width: 850px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+}
+
+.logo{
+    vertical-align: middle;
+    padding: 8px; 
+    width:40px;
+    height:40px; 
+}
+
+.slike{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
+
+#kanta,
+#priroda {
+    float: left;
+    width: 45%;
+    height: auto;
+    padding: 5px 10px;
+    margin: 10px;
+    background: #eee;
+    text-align: center;
+    background: #fff;
+    box-shadow:
+        0px 0px 0px 5px rgba(255, 255, 255, 0.4),
+        0px 0px 12px rgba(0, 0, 0, 0.33);
+    border-radius: 5px;
+    border: 1px solid #cacaca;   
+}
+
+.slikice {
+    width: 20%;
+    padding: 3px 5px;
+    /*display: block;*/
+    margin: 0 auto 3px;
+    text-align: center;
+    border: 1px solid #aaa;
+    background: #044ab3;
+    cursor: move;
+    border-radius: 5px;
+}
+

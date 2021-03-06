@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eko igra</title>
+	<link rel="stylesheet" href="style.css">  
+</head>
+<body>
+
+<h1>Očisti prirodu i odvuci svo smeće u eko kantu</h1>
+
+<section>
+
+	<div id="priroda" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false">            
+		<h2>PRIRODA</h2>
+		<img src="images/no.png" alt="WR" id="NO"><br>
+		<img src="images/priroda1.jpg" class="slikice" alt="WR">
+		<img src="images/smece1.jpg" alt="1" draggable="true" class="slikice" id="slikas1" ondragstart="drag(this, event)">
+		<img src="images/priroda2.jpg"  class="slikice" alt="WR">
+		<img src="images/smece2.jpg" alt="2" draggable="true" class="slikice" id="slikas2" ondragstart="drag(this, event)">
+		<img src="images/priroda3.jpg" class="slikice" alt="WR">
+		<img src="images/smece3.jpg" alt="3" draggable="true" class="slikice" id="slikas3" ondragstart="drag(this, event)">
+		<img src="images/priroda4.jpg" class="slikice" alt="WR">
+		<img src="images/smece4.jpg" alt="4" draggable="true" class="slikice" id="slikas4" ondragstart="drag(this, event)">
+		
+	</div>
+	<div style="margin-left:2.5%;" id="kanta" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false">
+		<h2>KANTA</h2> 
+		<img src="images/no.png" alt="WR" id="YES"><br>           
+	</div>
+	
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+
